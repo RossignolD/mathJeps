@@ -22,18 +22,6 @@
     color: white;
 }
 
-#jepsJovial{
-    color: white;
-    background-image: url("/chalkboard.jpeg");
-    background-size: cover ;
-    font-family: "Play", sans-serif;
-    text-align: center;
-}
-
-#jepsJovialBoardCategories{
-    margin: 1rem ;
-text-align: center;
-line-height: 1rem;
-font: 1.75rem;
-border-color: white;
+a:visited{
+    color: darkseagreen;
 }
