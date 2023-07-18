@@ -20,7 +20,7 @@ margin-right: auto;
 font-family: Anton;
 width: 70%;}
 
-#jovialCategories{
+.jovialCategories{
     font-size: 1.4rem;
     border: .2rem solid;
     border-color: white;  
