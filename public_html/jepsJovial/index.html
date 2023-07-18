@@ -1,83 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <link rel="stylesheet" href="/public_html/jepsJovial/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Libre+Baskerville&family=Play&display=swap"
+      rel="stylesheet"
+    />
 
-<head>
-    <link rel="stylesheet" href="/public_html/jepsJovial/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Libre+Baskerville&family=Play&display=swap"
-        rel="stylesheet">
-
-    <script src="https://code.jquery.com/jquery-3.6.1.js"
-        integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.1.js"
+      integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+      crossorigin="anonymous"
+    ></script>
     <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-    <script src="/public_html/js/jepsJackpotCalculator.js"></script>r
+    <script
+      id="MathJax-script"
+      async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+    ></script>
+    <script src="/public_html/js/jepsJackpotCalculator.js"></script>
+  </head>
 
-</head>
-
-<body>
+  <body>
     <div class="board">
-        <table>
-            <tr>
-                <td class="jovialCategories">Famous <br> Mathematical <br> Objects</td>
-                <td class="jovialCategories">Ancient<br> Mathematicians</td>
-                <td class="jovialCategories">Modern <br> Mathematicians</td>
-                <td class="jovialCategories">Let it "B"</td>
-                <td class="jovialCategories">There Will Be <br> an Answer</td>
-                <td class="jovialCategories">It's in \(\mathbb{C}\)</td>
-            </tr>
-        </table>
-        <table>
-            <tr class="money">
-                <td class="clue">\$200</td>
-                <td class="clue">\$200</td>
-                <td class="clue">\$200</td>
-                <td class="clue">\$200</td>
-                <td class="clue">\$200</td>
-                <td class="clue">\$200</td>
-            </tr>
-            <tr class="money">
-                <td class="clue">\$400</td>
-                <td class="clue">\$400</td>
-                <td class="clue">\$400</td>
-                <td class="clue">\$400</td>
-                <td class="clue">\$400</td>
-                <td class="clue">\$400</td>
-            </tr>
+      <table>
+        <tr>
+          <td class="jovialCategories">
+            Famous <br />
+            Mathematical <br />
+            Objects
+          </td>
+          <td class="jovialCategories">
+            Ancient<br />
+            Mathematicians
+          </td>
+          <td class="jovialCategories">
+            Modern <br />
+            Mathematicians
+          </td>
+          <td class="jovialCategories">Let it "B"</td>
+          <td class="jovialCategories">
+            There Will Be <br />
+            an Answer
+          </td>
+          <td class="jovialCategories">It's in \(\mathbb{C}\)</td>
+        </tr>
+      </table>
+      <table>
+        <tr class="money">
+          <td id="00" class="clue">\$200</td>
+          <td id="01" class="clue">\$200</td>
+          <td id="02" class="clue">\$200</td>
+          <td id="03" class="clue">\$200</td>
+          <td id="04" class="clue">\$200</td>
+          <td id="05" class="clue">\$200</td>
+        </tr>
+        <tr class="money">
+          <td id="06" class="clue">\$400</td>
+          <td id="07" class="clue">\$400</td>
+          <td id="08" class="clue">\$400</td>
+          <td id="09" class="clue">\$400</td>
+          <td id="10" class="clue">\$400</td>
+          <td id="11" class="clue">\$400</td>
+        </tr>
 
-            <tr class="money">
-                <td class="clue">\$600</td>
-                <td class="clue">\$600</td>
-                <td class="clue">\$600</td>
-                <td class="clue">\$600</td>
-                <td class="clue">\$600</td>
-                <td class="clue">\$600</td>
-            </tr>
-            <tr class="money">
-                <td class="clue">\$800</td>
-                <td class="clue">\$800</td>
-                <td class="clue">\$800</td>
-                <td class="clue">\$800</td>
-                <td class="clue">\$800</td>
-                <td class="clue">\$800</td>
-            </tr>
+        <tr class="money">
+          <td id="12" class="clue">\$600</td>
+          <td id="13" class="clue">\$600</td>
+          <td id="14" class="clue">\$600</td>
+          <td id="15" class="clue">\$600</td>
+          <td id="16" class="clue">\$600</td>
+          <td id="17" class="clue">\$600</td>
+        </tr>
+        <tr class="money">
+          <td id="18" class="clue">\$800</td>
+          <td id="19" class="clue">\$800</td>
+          <td id="20" class="clue">\$800</td>
+          <td id="21" class="clue">\$800</td>
+          <td id="22" class="clue">\$800</td>
+          <td id="23" class="clue">\$800</td>
+        </tr>
 
-            <tr class="money">
-                <td class="clue">\$1000</td>
-                <td class="clue">\$1000</td>
-                <td class="clue">\$1000</td>
-                <td class="clue">\$1000</td>
-                <td class="clue">\$1000</td>
-                <td class="clue">\$1000</td>
-            </tr>
-        </table>
-        <div class="jovialJepsJackpotCover">
-            <img src="/jepsJackpot.png" alt="Jeps Jackpot title card" class="jepsJackpotTitleCard">
-            <br>
-            Make your wager now! <br> A winning answer will earn DOUBLE the wager. <br> But watch out! If answered incorrectly, the wager will be lost.
-        </div>
+        <tr class="money">
+          <td id="24" class="clue">
+            <a target="_blank" href="www.google.com"></a>\$1000
+          </td>
+          <td id="25" class="clue">\$1000</td>
+          <td id="26" class="clue">\$1000</td>
+          <td id="27" class="clue">\$1000</td>
+          <td id="28" class="clue">\$1000</td>
+          <td id="29" class="clue">\$1000</td>
+        </tr>
+    </table>
     </div>
-    
-</body>
+  </body>
 </html>

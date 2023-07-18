@@ -35,29 +35,3 @@ table {
     font-size: 3.3rem;
     font-family: Anton;
 }
-
-[class*="jovialJepsJackpot"] {
-    position: absolute;
-    height: 100%;
-    width: 80%;
-    right: 10%;
-    top: 0;
-    z-index: 1;
-}
-
-.jovialJepsJackpotCover {
-    position: absolute;
-    opacity: 0;
-    background-color: darkturquoise;
-    color: aliceblue;
-}
-
-.jovialJepsJackpotUncover {
-    position: absolute;
-    background-color:steelblue;
-    color: white;
-    font-size: 2.5rem;
-    align-content: center;
-    font-family: "Play", sans-serif;
-}
-
