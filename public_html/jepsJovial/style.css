@@ -1,32 +1,63 @@
-body{
+body {
     color: white;
     background-image: url("/chalkboard.jpeg");
-    background-size: cover ;
+    background-size: cover;
     text-align: center;
 }
 
-.board{
+.board {
     margin-left: auto;
     margin-right: auto;
     margin-top: 2rem;
+    position: relative;
+    z-index: 0;
 }
 
-table{
-align-self: center;
-table-layout: fixed;
-line-height: auto;
-margin-left: auto;
-margin-right: auto;
-font-family: Anton;
-width: 70%;}
+table {
+    align-self: center;
+    table-layout: fixed;
+    line-height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Anton;
+    width: 70%;
+    position: relative;
+}
 
-.jovialCategories{
+.jovialCategories {
     font-size: 1.4rem;
     border: .2rem solid;
-    border-color: white;  
+    border-color: white;
 }
 
-.money{
+.money {
     color: rgb(252, 199, 10);
     font-size: 3.3rem;
+    font-family: Anton;
 }
+
+[class*="jovialJepsJackpot"] {
+    position: absolute;
+    height: 100%;
+    width: 80%;
+    right: 10%;
+    top: 0;
+    z-index: 1;
+}
+
+.jovialJepsJackpotCover {
+    position: absolute;
+    opacity: 0;
+    background-color: darkturquoise;
+    color: aliceblue;
+}
+
+.jovialJepsJackpotUncover {
+    position: absolute;
+    background-color:steelblue;
+    color: white;
+    font-size: 2.5rem;
+    align-content: center;
+    font-family: "Play", sans-serif;
+}
+
