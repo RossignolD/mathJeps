@@ -26,8 +26,6 @@ jackpotSquare.classList.add("jovialJepsWinner");
     $(document).click(function(e) {
         if ($(e.target).hasClass("jovialJepsWinner")){
         console.log(':)');
-        jovialJepsJackpotCover.classList.add(jovialJepsJackpotUncover);
-        jovialJepsJackpotCover.classList.remove(jovialJepsJackpotCover);
         } 
         else {
           console.log('\:\(');
