@@ -1,7 +1,5 @@
 #homepage{
     color: white;
-    background-image: url("/chalkboard.jpeg");
-    background-size: cover ;
     font-family: "Play", sans-serif;
     text-align: center;
     line-height: 1.75rem;
@@ -27,7 +25,9 @@ a:visited{
 }
 
 body{
-    background-color: steelblue;
+    background-image: url("/chalkboard.jpeg");
+    background-size: cover ;
+
 }
 .jovialJepsJackpotCard{
     background-color:steelblue;

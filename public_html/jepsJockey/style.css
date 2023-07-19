@@ -1,0 +1,84 @@
+a:link{
+    color: rgb(252, 199, 10);
+    text-decoration: none;
+}
+
+a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: cornsilk;
+    text-decoration: none;
+}
+
+a:active{
+    color: yellow;
+    text-decoration: none;
+}
+
+.board {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    position: relative;
+    z-index: 0;
+}
+
+#jockeyInstructions{
+    font-size: 3rem;
+    color: white;
+    font-family: "Libre Baskerville", serif;
+    margin-top: 1rem;
+    text-shadow: .25rem .25rem .5rem black;
+}
+
+table {
+    align-self: center;
+    table-layout: fixed;
+    line-height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Anton;
+    width: 70%;
+    position: relative;
+}
+
+.jubileeCategories {
+    font-size: 1.4rem;
+    border: .2rem solid;
+    border-color: white;
+}
+
+.money {
+    color: rgb(252, 199, 10);
+    font-size: 3.3rem;
+    font-family: Anton;
+}
+
+#moveToJepsJockey{
+    width: 20rem;
+    height: 3rem;
+    font-family: "Play", sans-serif;
+    background-color: rgb(252, 199, 10);
+    font-size: 1.6rem;
+    padding-bottom: 2rem;
+    padding-top: .5rem;
+    border-radius: 50%;
+    text-align: center;
+    align-content: center;
+}
+
+body {
+    background-image: url("../../../chalkboard.jpeg");
+    background-size: cover;
+    text-align: center;
+}
+
+#jockeyCategory{
+    font-family: "Anton";
+    color: white;
+    font-size:5rem;
+}
+

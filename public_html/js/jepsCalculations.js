@@ -33,12 +33,6 @@ document.addEventListener("click", function (e) {
   }
 });
 
-function getHyperlink(ID){
-let myLink=myJovialDict[ID];
-console.log(myLink);
-return myLink;
-}
-
 function countClicks() {
   var $all = $("a");
   $all.click(function() {
@@ -54,3 +48,21 @@ function countClicks() {
 };
 
 countClicks()
+
+function showCategory() {
+  var x = document.getElementById("jockeyCategory");
+  if (x.style.display === "none") {
+    x.style.display = "";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function showClue() {
+  var x = document.getElementById("jockeyClue");
+  if (x.style.display === "none") {
+    x.style.display = "";
+  } else {
+    x.style.display = "none";
+  }
+}
