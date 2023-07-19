@@ -1,8 +1,10 @@
 let jepsBoard = document.getElementsByClassName("clue");
 
-  let jackpot = Math.floor(Math.random() * 30);
-function getJackpotEl(number, clues)
-{
+let jackpot = Math.floor(Math.random() * 30);
+
+let jovialClicks = new Array(30).fill(0);
+
+function getJackpotEl(number, clues) {
   return clues[number];
 }
 
@@ -13,18 +15,27 @@ function getIDFromNumber(number) {
 }
 
 $(document).on("click", function (event) {
-  let t = event.target.id;
+let  t = event.target.id;
   let element = document.getElementById(t);
   if (t == jackpot) {
     document.getElementById(t).classList.add("jovialJepsWinner");
     console.log("yay");
-    getHyperlink(t);
   } else {
     console.log("nay");
-    getHyperlink(t);
     return null;
   }
 });
+
+function updateListItem(ID) {
+  myList.splice(ID, 1, 1);
+  return myList;
+};
+
+
+function replyClick(clicked_id) {
+  alert(clicked_id);
+  return null;
+};
 
 document.addEventListener("click", function (e) {
   let elementClass = e.target.className;
@@ -33,36 +44,20 @@ document.addEventListener("click", function (e) {
   }
 });
 
-function countClicks() {
-  var $all = $("a");
-  $all.click(function() {
-      $(this).addClass("clicked");
-      let numberClicked = $(".clicked").length;
-      console.log(numberClicked);
-      return numberClicked
-      if(numberClicked=== $all.length) {
-         $("#moveToJepsJubilee").show();
-      }
-      else {$("#moveToJepsJubilee").hide()};
-  });
-};
+// function showCategory() {
+//   let x = document.getElementById("jockeyCategory");
+//   if (x.style.display === "none") {
+//     x.style.display = "";
+//   } else {
+//     x.style.display = "none";
+//   }
+// }
 
-countClicks()
-
-function showCategory() {
-  var x = document.getElementById("jockeyCategory");
-  if (x.style.display === "none") {
-    x.style.display = "";
-  } else {
-    x.style.display = "none";
-  }
-}
-
-function showClue() {
-  var x = document.getElementById("jockeyClue");
-  if (x.style.display === "none") {
-    x.style.display = "";
-  } else {
-    x.style.display = "none";
-  }
-}
+// function showClue() {
+//   let x = document.getElementById("jockeyClue");
+//   if (x.style.display === "none") {
+//     x.style.display = "";
+//   } else {
+//     x.style.display = "none";
+//   }
+// }

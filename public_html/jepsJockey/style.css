@@ -26,7 +26,7 @@ a:active{
     z-index: 0;
 }
 
-#jockeyInstructions{
+.jockeyInstructions{
     font-size: 3rem;
     color: white;
     font-family: "Libre Baskerville", serif;
@@ -57,14 +57,14 @@ table {
     font-family: Anton;
 }
 
-#moveToJepsJockey{
+button {
     width: 20rem;
-    height: 3rem;
+    height: auto;
     font-family: "Play", sans-serif;
     background-color: rgb(252, 199, 10);
     font-size: 1.6rem;
     padding-bottom: 2rem;
-    padding-top: .5rem;
+    padding-top: 2rem;
     border-radius: 50%;
     text-align: center;
     align-content: center;
