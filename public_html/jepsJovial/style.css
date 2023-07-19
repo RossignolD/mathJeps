@@ -1,9 +1,23 @@
+a:link{
+    color: rgb(252, 199, 10);
+    text-decoration: none;
+}
+
 a:visited{
     color: white;
+    text-decoration: none;
 }
-a {
-    color: rgb(252, 199, 10);
+
+a:hover{
+    color: cornsilk;
+    text-decoration: none;
 }
+
+a:active{
+    color: yellow;
+    text-decoration: none;
+}
+
 body {
     color: white;
     background-image: url("/chalkboard.jpeg");
@@ -40,4 +54,17 @@ table {
     color: rgb(252, 199, 10);
     font-size: 3.3rem;
     font-family: Anton;
+}
+
+#moveToJepsJubilee{
+    width: 20rem;
+    height: 3rem;
+    font-family: "Play", sans-serif;
+    background-color: rgb(252, 199, 10);
+    font-size: 1.6rem;
+    padding-bottom: 2rem;
+    padding-top: .5rem;
+    border-radius: 50%;
+    text-align: center;
+    align-content: center;
 }

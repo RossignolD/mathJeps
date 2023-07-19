@@ -1,32 +1,70 @@
-body{
+a:link{
+    color: rgb(252, 199, 10);
+    text-decoration: none;
+}
+
+a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: cornsilk;
+    text-decoration: none;
+}
+
+a:active{
+    color: yellow;
+    text-decoration: none;
+}
+
+body {
     color: white;
     background-image: url("/chalkboard.jpeg");
-    background-size: cover ;
+    background-size: cover;
     text-align: center;
 }
 
-.board{
+.board {
     margin-left: auto;
     margin-right: auto;
     margin-top: 2rem;
+    position: relative;
+    z-index: 0;
 }
 
-table{
-align-self: center;
-table-layout: fixed;
-line-height: auto;
-margin-left: auto;
-margin-right: auto;
-font-family: Anton;
-width: 70%;}
+table {
+    align-self: center;
+    table-layout: fixed;
+    line-height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Anton;
+    width: 70%;
+    position: relative;
+}
 
-.categories{
+.jubileeCategories {
     font-size: 1.4rem;
     border: .2rem solid;
-    border-color: white;  
+    border-color: white;
 }
 
-.money{
+.money {
     color: rgb(252, 199, 10);
     font-size: 3.3rem;
+    font-family: Anton;
+}
+
+#moveToJepsJockey{
+    width: 20rem;
+    height: 3rem;
+    font-family: "Play", sans-serif;
+    background-color: rgb(252, 199, 10);
+    font-size: 1.6rem;
+    padding-bottom: 2rem;
+    padding-top: .5rem;
+    border-radius: 50%;
+    text-align: center;
+    align-content: center;
 }

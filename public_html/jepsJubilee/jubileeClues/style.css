@@ -1,0 +1,13 @@
+body {
+    background-image: url("../../../chalkboard.jpeg");
+    background-size: cover;
+    text-align: center;
+}
+
+.clueText{
+    font-size: 3rem;
+    color: white;
+    font-family: "Libre Baskerville", serif;
+    margin-top: 1rem;
+    text-shadow: .25rem .25rem .5rem black;
+}
