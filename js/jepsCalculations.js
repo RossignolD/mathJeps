@@ -14,7 +14,7 @@ let jepsBoard = document.getElementsByClassName("clue");
 
 // function isJovialJackpot(clicked_id) {
 //   if (clicked_id === jovialJackpot) {
-//     window.open("../public_html/jepsJackpot.html");
+//     window.open("../jepsJackpot.html");
 //   } else {
 //     window.open(getURL(clicked_id));
 //   }
@@ -67,7 +67,7 @@ function replyClickJubilee(clicked_id) {
 document.addEventListener("click", function (e) {
   let elementClass = e.target.className;
   if (elementClass === "clue jovialJepsWinner") {
-    window.open("/public_html/jepsJackpot.html");
+    window.open("/jepsJackpot.html");
   }
 });
 
