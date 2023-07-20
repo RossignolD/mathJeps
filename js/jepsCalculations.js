@@ -103,11 +103,11 @@ function compareArraysJubilee(a = jubileeClicks, b = fullArray) {
 
 function isArrayFullJubilee() {
   if (compareArraysJubilee() === true) {
-    let btn = document.getElementById("moveTopublic_html/jepsJockey");
+    let btn = document.getElementById("moveToJepsJockey");
     $(btn).show();
     return true;
   } else {
-    let btn = document.getElementById("moveTopublic_html/jepsJockey");
+    let btn = document.getElementById("moveToJepsJockey");
     $(btn).hide();
     return false;
   }
