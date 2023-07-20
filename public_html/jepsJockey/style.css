@@ -82,3 +82,15 @@ body {
     font-size:5rem;
 }
 
+.jockeyClue{
+    height: auto;
+    padding: 10% 10%;
+    line-height: 4rem;
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+    font-family: "Libre Baskerville", serif;
+    margin-top: 1rem;
+    text-shadow: 0.25rem 0.25rem 0.5rem black;
+  }
+
