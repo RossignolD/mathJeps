@@ -48,23 +48,26 @@ table {
     font-size: 1.4rem;
     border: .2rem solid;
     border-color: white;
+    text-align: center;
 }
 
 .money {
     color: rgb(252, 199, 10);
     font-size: 3.3rem;
-    font-family: Anton;
+    font-family: "Anton", sans-serif;
 }
 
-#moveToJepsJockey{
-    width: 20rem;
-    height: 3rem;
-    font-family: "Play", sans-serif;
-    background-color: rgb(252, 199, 10);
-    font-size: 1.6rem;
-    padding-bottom: 2rem;
-    padding-top: .5rem;
-    border-radius: 50%;
-    text-align: center;
-    align-content: center;
-}
+
+
+    button {
+        width: 20rem;
+        height: auto;
+        font-family: "Play", sans-serif;
+        background-color: rgb(252, 199, 10);
+        font-size: 1.6rem;
+        padding-bottom: 2rem;
+        padding-top: 2rem;
+        border-radius: 50%;
+        text-align: center;
+        align-content: center;
+    }

@@ -5,6 +5,10 @@ body {
 }
 
 .clueText{
+    height: auto;
+    padding: 10% 10%;
+line-height: 4rem;
+    text-align: center;   
     font-size: 3rem;
     color: white;
     font-family: "Libre Baskerville", serif;
